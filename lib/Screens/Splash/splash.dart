@@ -60,19 +60,17 @@ class _SplashScreen extends State<Splash> {
                     child: Container(
                       padding: EdgeInsetsDirectional.symmetric(
                           vertical: 20, horizontal: 10),
-                      decoration: BoxDecoration(
-                          color: white,
-                          boxShadow: [
-                            BoxShadow(
-                              color: lightWhite,
-                              blurRadius: 5.0,
-                            ),
-                          ],
-                          borderRadius: BorderRadius.all(Radius.circular(10))),
-                      child: SvgPicture.asset(
-                        DesignConfiguration.setSvgPath('loginlogo'),
-                        width: 100,
-                        height: 100,
+                      child: /*SvgPicture.asset(
+                        DesignConfiguration.setSvgPath('splashlogo'),
+                        width: 200,
+                        height: 200,
+                      )*/
+                          Image.asset(
+                        "assets/images/PNG/splashlogo.png",
+                        width: 200,
+                        height: 200,
+                        fit: BoxFit.fill,
+                        // fit: BoxFit.fill,
                       ),
                     ),
                   ),
@@ -83,7 +81,7 @@ class _SplashScreen extends State<Splash> {
                   // width: double.infinity,
                   // height: double.infinity,
                 ),
-                Column(
+                /* Column(
                   mainAxisAlignment: MainAxisAlignment.end,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
@@ -99,7 +97,7 @@ class _SplashScreen extends State<Splash> {
                       ),
                     ),
                   ],
-                )
+                )*/
               ],
             ),
     );
@@ -113,7 +111,7 @@ class _SplashScreen extends State<Splash> {
     try {
       final data = await SystemRepository.fetchSystemSettings();
       AppSettingsRepository.appSettings = AppSettingsModel.fromMap(data);
-      navigationPage();
+       navigationPage();
     } catch (e) {
       isError = true;
       errorMessage = e.toString();
