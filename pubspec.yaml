@@ -1,0 +1,58 @@
+name: deliveryboy_multivendor
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 2.10.0+16
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  connectivity: ^3.0.6
+  shimmer: ^3.0.0
+  webview_flutter: ^4.2.1
+  firebase_messaging: ^15.0.0
+  flutter_local_notifications: ^17.1.2
+  path_provider: ^2.1.2
+  sms_autofill: ^2.3.1
+  firebase_auth: ^5.0.0
+  url_launcher: ^6.1.7
+  flutter_svg: ^2.0.9
+  lottie: ^3.0.0
+  cached_network_image: ^3.3.1
+  provider: ^6.1.1
+  intl_phone_field: ^3.2.0
+  image_picker: ^1.0.7
+  flutter_bloc: ^8.1.6
+  intl: 
+
+dependency_overrides:
+  webview_flutter_android: 3.16.1
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/PNG/
+    - assets/images/SVG/
+    - assets/animation/
+    - lib/Language/
+
+  fonts:
+    - family: ubuntu
+      fonts:
+        - asset: assets/font/Ubuntu-Regular.ttf
