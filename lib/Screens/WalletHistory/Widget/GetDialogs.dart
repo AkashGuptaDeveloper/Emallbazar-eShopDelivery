@@ -349,6 +349,7 @@ class GetDialogs {
       context: context,
       builder: (BuildContext context) {
         return ButtonBarTheme(
+          // ignore: deprecated_member_use
           data: ButtonBarThemeData(
             alignment: MainAxisAlignment.center,
           ),

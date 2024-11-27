@@ -36,6 +36,7 @@ noIntImage() {
   return SvgPicture.asset(
     DesignConfiguration.setSvgPath('no_internet'),
     fit: BoxFit.contain,
+    // ignore: deprecated_member_use
     color: primary,
   );
 }
