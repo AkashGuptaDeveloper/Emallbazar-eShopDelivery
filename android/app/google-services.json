@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "554007316397",
-    "project_id": "deliveryboymultivendor",
-    "storage_bucket": "deliveryboymultivendor.appspot.com"
+    "project_number": "832941177447",
+    "project_id": "deliveryemallbazar",
+    "storage_bucket": "deliveryemallbazar.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:554007316397:android:4faa43ebd2d3091e1e4324",
+        "mobilesdk_app_id": "1:832941177447:android:0e607e1539e5ee29a732c2",
         "android_client_info": {
-          "package_name": "com.deliveryboy.multivendor"
+          "package_name": "com.delivery.emallbazar"
         }
       },
       "oauth_client": [
         {
-          "client_id": "554007316397-26tbprvg7govdl3meiugkiqusi1ta0gv.apps.googleusercontent.com",
+          "client_id": "832941177447-18immkr6q0h9ul935htv6pf2cj2a713h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.deliveryboy.multivendor",
+            "package_name": "com.delivery.emallbazar",
             "certificate_hash": "e5f022ccc76438ce521b20481765aa13ca6ed817"
           }
         },
         {
-          "client_id": "554007316397-r1imnb5rvubj5mvbes2agtnt33kqpeu9.apps.googleusercontent.com",
+          "client_id": "832941177447-mvb49rfln47prvd0ne26ue29tv4si5nd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD9vcJG05wTJ882hxC7JCKbS4k4EE3reD8"
+          "current_key": "AIzaSyDx7GsDqGwiaSG9gy2nOzRL8ke72dpYTsQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "554007316397-r1imnb5rvubj5mvbes2agtnt33kqpeu9.apps.googleusercontent.com",
+              "client_id": "832941177447-mvb49rfln47prvd0ne26ue29tv4si5nd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

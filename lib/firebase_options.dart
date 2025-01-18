@@ -57,11 +57,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD9vcJG05wTJ882hxC7JCKbS4k4EE3reD8',
-    appId: '1:554007316397:android:4faa43ebd2d3091e1e4324',
-    messagingSenderId: '327324836622',
-    projectId: 'deliveryboymultivendor',
-    storageBucket: 'deliveryboymultivendor.appspot.com',
+    apiKey: 'AIzaSyDx7GsDqGwiaSG9gy2nOzRL8ke72dpYTsQ',
+    appId: '1:832941177447:android:0e607e1539e5ee29a732c2',
+    messagingSenderId: '832941177447',
+    projectId: 'deliveryemallbazar',
+    storageBucket: 'deliveryemallbazar.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -72,6 +72,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'eshop-multivendor-new.appspot.com',
     androidClientId: '327324836622-ji2sarngpv0f0ga7pucnf128apm136q3.apps.googleusercontent.com',
     iosClientId: '327324836622-0ktinnuf2ptq799bl8l5tio5puucr9rs.apps.googleusercontent.com',
-    iosBundleId: 'com.deliveryboy.multivendor',
+    iosBundleId: 'com.delivery.emallbazar',
   );
 }

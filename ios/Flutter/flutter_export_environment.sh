@@ -1,6 +1,6 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/Users/akash/fvm/versions/3.24.3"
+export "FLUTTER_ROOT=/Users/akash/fvm/versions/3.27.1"
 export "FLUTTER_APPLICATION_PATH=/Users/akash/Documents/Documents/Project/Others/Mohanji/DeliveryBoy App Code/eShop-DeliveryBoy"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib/main.dart"
